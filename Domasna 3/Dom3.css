@@ -1,0 +1,66 @@
+header{
+    background-color: hwb(204 2% 78%);
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+  font-style: italic;
+  padding: 4px; 
+  text-align: left;
+  width: 100%;
+  font-size:x-large;
+  box-sizing: border-box;
+}
+.logo-mesto {
+   position: absolute;
+  top: 20px;
+  right: 20px;
+  width: auto;
+  height: 60px;
+  float: right;
+}
+.granici {
+  width: 82%;
+  margin: 0 auto;            
+  padding: 0 20px;           
+  background-color: #f0f0f0; 
+  font-family: Arial, sans-serif;
+}
+.hover-animacijha{
+    width: auto;
+  height: 60;
+  border-radius: 0px;
+  transition: transform 0.4s ease; 
+  transform: scale(1);  
+}
+.hover-animacijha:hover{
+    transform: scale(1.12);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.fialogo{
+    display: block;      
+  margin: 0 auto;      
+  width: 80%;
+  max-width: 100px;
+  height: auto;
+  border-radius: 10px; 
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+    
+}
+.memoriskaigra {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.memoriskaigra img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #333;
+}
