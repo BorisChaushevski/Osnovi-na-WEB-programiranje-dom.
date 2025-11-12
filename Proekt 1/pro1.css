@@ -1,0 +1,407 @@
+#cityCarousel {
+  height: 80vh;           
+  overflow: hidden;       
+}
+
+#cityCarousel .carousel-item img {
+  width: 100%;
+  height: 100%;           
+  object-fit: cover;      
+  object-position: center;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+header {
+  position: fixed;     
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;       
+}
+#cityCarousel {
+  padding-top: 149px; 
+}
+.slikagore {
+  float: left;      
+  height: 150px;    
+  width: auto;      
+}
+.hover-animacijha{
+    width: auto;
+  height: 60px;
+  border-radius: 0px;
+  transition: transform 0.4s ease; 
+  transform: scale(1);  
+}
+.hover-animacijha:hover{
+    transform: scale(1.12);
+}
+section {
+  padding: 170px 20px;
+}
+
+.kopche{
+  background-color: rgb(184, 184, 184);
+      color: #000000;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      
+}
+
+.input{
+  padding: 5px;
+  color: rgb(90, 89, 87);
+  background-color: rgb(251, 246, 240);
+      border-radius: 5px;
+      border: none;
+}
+
+#loginforma{
+  display: flex;
+  float: right;
+      align-items: center;
+      gap: 10px;
+}
+
+.red {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px auto 0 auto;      
+  max-width: 1000px;      
+  gap: 20px;
+  padding: 0 20px;        
+}
+
+.redprevrti {
+  flex-direction: row-reverse; 
+}
+.text {
+  flex: 1;  
+  padding-left: 30px;               
+}
+
+.im1 {
+  flex: 1;    
+  padding-right: 30px;             
+}
+
+.image img {
+  width: 100%;             
+  height: auto;            
+  border-radius: 10px;     
+}
+
+.like-dislike {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.like-dislike button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.like-dislike button:hover {
+  background-color: #2c80b4;
+}
+
+#commentsection {
+  width: 400px;
+  margin: 30px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+#commentsection h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#comments {
+  margin-bottom: 15px;
+}
+
+.comment {
+  background-color: #2c80b4;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#commentinput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+}
+
+#postcomment {
+  background-color: #2c80b4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+#postcomment:hover {
+  background-color: #236a94;
+}
+
+.fulllevododesno {
+  background-color: #5e7686; 
+  width: 100%; 
+  position: relative;
+  padding: 30px 0; 
+}
+
+.sodrz {
+  margin: 0 auto; 
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.rating-card {
+  text-align: center; 
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.stars-container {
+  display: inline-flex;
+  gap: 10px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.star {
+  font-size: 40px;
+  color: gray;
+  transition: color 0.3s;
+}
+
+.star.selected {
+  color: gold;
+}
+
+#updateRatingBtn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: #2c80b4;
+  color: white;
+}
+
+#updateRatingBtn:hover {
+  background-color: #236a94;
+}
+#blogpost {
+  width: 600px;               
+  margin: 20px auto;         
+  font-family: Arial, sans-serif;
+}
+
+#blogpost h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#blogovi {
+  margin-bottom: 15px;
+}
+
+.blogpost {
+  background-color: #2c80b4;  
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+#naslovnablog, #tekstnablog {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#postblog {
+  background-color: #2c80b4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+#postblog:hover {
+  background-color: #236a94;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.dropbtn {
+  background-color: #2c80b4;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: #2c80b4;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #226a92;
+}
+.navigacija {
+  background-color: #fbf8f5;
+  padding: 12px 0;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigacija a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navigacija a:hover {
+  color: #ffdd57;
+}
+[kajlavot]::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+}
+.fixed-bg {
+  position: relative;
+  background-image: url("873d1ef55c1fecee8b7195099257603e.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden; 
+}
+
+.fixed-bg::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(4px); 
+  z-index: -1; 
+}
+.background-section {
+  position: relative;
+  background-image: url("your-image.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  min-height: 100vh; 
+  padding: 80px 20px;
+  color: white;
+  overflow: visible; 
+}
+
+.background-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55); 
+  z-index: 1;
+}
+
+.background-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+.text-on-dark {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #f1f1f1;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-on-dark h1, .text-on-dark h2, .text-on-dark h3 {
+  color: #ffffff;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+.text-on-dark p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+

@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <Title>Lucerne tourguide</Title>
+        <link rel="stylesheet" href="pro1.css">
+    </head>
+    
+        <header style="background-color: #fbf8f5; ">
+            <div class="slikagore">
+            <div class="container">
+            <img src="Coat_of_Arms_of_Luzern_bordered.svg.png" alt="Swiss flag" class="logo-mesto hover-animacija"  style="height: 145px; ">
+            </div>
+            </div>
+            <nav class="navigacija">
+              <a href="#cityCarousel">Home</a>
+              <div class="dropdown">
+              <button class="dropbtn">Locations ▾</button>
+              <div class="dropdown-content">
+                <a href="#kajmostot">Kapellbrücke</a>
+                <a href="#kajlavot">Löwendenkmal</a>
+                <a href="#kajdzidot">Museggmauer</a>
+              </div>
+            </div>
+            </nav>
+            <form id="loginforma">
+              <input class="input" type="text" id="name" placeholder="username">
+              <button class="kopche" type="submit">Log-in</button>
+
+            </form>
+                  
+        </header>
+        <script src="proec1.js"></script>
+        <body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="carousel-img">
+  <div id="cityCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+
+      <!-- slika 1 -->
+      <div class="carousel-item active">
+        <a href="mostvebsajt.html" target="_blank">
+          <img src="csm_DSC00022_b0eaf6b900.webp" class="d-block w-100 h-100 carousel-img" alt="Lucernebridge">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Kapellbrücke, Chapel Bridge</h2>
+        </div>
+      </div>
+
+      <!-- slka 2 -->
+      <div class="carousel-item">
+        <a href="lavvebsajt.html" target="_blank">
+          <img src="873d1ef55c1fecee8b7195099257603e.jpg" class="d-block w-100 h-100 carousel-img" alt="Lion Monument">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Löwendenkmal, Lion Monument</h2>
+        </div>
+      </div>
+
+      <!-- slika 3 -->
+      <div class="carousel-item">
+        <a href="dzidvebsajt.html" target="_blank">
+          <img src="35013_32001800.avif" class="d-block w-100 h-100 carousel-img" alt="Musegg Wall">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Museggmauer, Musegg Wall</h2>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#cityCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cityCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="red" id="kajmostot">
+  <div class="text">
+    <h3>Kapellbrücke</h3>
+    <p>The Kapellbrücke (Chapel Bridge) in Lucerne, Switzerland, is a charming covered wooden 
+      footbridge spanning the Reuss River. Built in 1333, it is one of Europe’s oldest wooden bridges 
+      and a symbol of the city. The bridge is famous for its interior triangular paintings, dating back to the 17th century,
+      which depict Lucerne’s history and legends. Its octagonal Wasserturm (Water Tower),
+      adjacent to the bridge, adds to its iconic medieval appearance, making it a picturesque landmark 
+      and a must-see for visitors. </p>
+  </div>
+  <div class="im1">
+    <img src="mostslika.webp" alt="bridge" height="360px" width="500px">
+    <div class="like-dislike">
+      Likes: <span id="likeCount">0</span>
+      <button id="likeBtn">Like</button>
+      Dislikes: <span id="dislikeCount">0</span>
+      <button id="dislikeBtn">Dislike</button>
+    </div>
+  </div>
+</div>
+<div class="red">
+  
+  <div class="im1" id="kajlavot">
+    <img src="loewendenkmal-switzerland.avif" alt="lion" height="300px" width="auto" >
+    <div class="like-dislike">
+      Likes: <span id="likeCount2"></span>
+      <button id="likeBtn2">Like</button>
+      Dislikes: <span id="dislikeCount2">0</span>
+      <button id="dislikeBtn2">Dislike</button>
+    </div>
+  </div>
+  <div class="text">
+    <h3>Löwendenkmal</h3>
+    <p>The Löwendenkmal (Lion Monument) in Lucerne is a famous rock relief carved in 1821 to honor Swiss Guards
+       who died defending the French king during the 1792 Tuileries attack. The monument depicts a dying lion
+        pierced by a spear, symbolizing bravery and sacrifice. Designed by Bertel Thorvaldsen and carved into a sandstone 
+        cliff, it is one of Switzerland’s most moving and iconic memorials.</p>
+  </div>
+
+</div>
+<div class="red">
+  <div class="text" id="kajdzidot">
+    <h3>Museggmauer</h3>
+    <p>The Museggmauer (Musegg Wall) in Lucerne is a well-preserved medieval city wall built in the 14th century.
+       Stretching over 800 meters, it features nine towers, some of which are open to the public and offer panoramic
+        views of the city and lake. The wall stands as a symbol of Lucerne’s historic fortifications and medieval
+         heritage. </p>
+  </div>
+  <div class="im1">
+    <img src="switzerland-lucerne-top-attractions-museggmauer-turme-town-walls-tower.jpg" alt="wall" height="360px" width="500px">
+    <div class="like-dislike">
+      Likes: <span id="likeCount3">0</span>
+      <button id="likeBtn3">Like</button>
+      Dislikes: <span id="dislikeCount3">0</span>
+      <button id="dislikeBtn3">Dislike</button>
+    </div>
+  </div>
+</div>
+<div class="sodrz">
+<div class="fulllevododesno ">
+  <div id="commentsection">
+    <h3>Comments:</h3>
+    <div id="comments" ></div>
+    <textarea id="commentinput" rows="3" placeholder="Write a comment"></textarea><br>
+    <button id="postcomment">Post comment</button>
+
+  </div>
+  <div id="blogpost">
+    <h3>Post about a place you have to visit in Lucerne:</h3>
+    <div id="blogovi"></div>
+    <textarea id="naslovnablog" rows="1" placeholder="Title of blog"></textarea><br>
+    <textarea id="tekstnablog" rows="6" placeholder="Write about a place that visitors must visit"></textarea><br>
+    <button id="postblog">Post Blog</button>
+  </div>
+<div class="rating-card">
+  <h3>Rate this post:</h3>
+  <div class="stars-container">
+    <span class="star" data-value="1">★</span>
+    <span class="star" data-value="2">★</span>
+    <span class="star" data-value="3">★</span>
+    <span class="star" data-value="4">★</span>
+    <span class="star" data-value="5">★</span>
+  </div>
+  <button id="updateRatingBtn">Update Rating</button>
+  <h4 id="ratingOutput">Rating is: 0/5</h4>
+</div>
+<footer class="footer">
+  <p> 2025 Lucerne Tourguide — Created by Boris Chaushevski.</p>
+</footer>
+<script src="projec1.js"></script>
+
+    </body>
+
+</html>

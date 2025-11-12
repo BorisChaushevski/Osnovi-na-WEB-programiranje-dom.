@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-bg {
+  background: url("csm_DSC00022_b0eaf6b900.webp") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  overflow-x: hidden;
+}
+
+.fixed-bg::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  z-index: 10;
+  padding: 15px 0;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  padding-top: 200px; 
+  min-height: 200vh; 
+}
+
+.text-on-dark {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.text-on-dark h1 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.text-on-dark p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.text-on-dark img {
+  width: 400px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.slikagore {
+  float: left;      
+  height: 150px;    
+  width: auto;      
+}
+.input{
+  padding: 5px;
+  color: rgb(90, 89, 87);
+  background-color: rgb(251, 246, 240);
+      border-radius: 5px;
+      border: none;
+}
+.kopche{
+  background-color: rgb(184, 184, 184);
+      color: #000000;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      
+}
+.navigacija {
+  padding: 12px 0;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigacija a {
+  color: rgb(227, 227, 227);
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navigacija a:hover {
+  color: #ffdd57;
+}
+.dropbtn {
+  background-color: #2c80b4;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: #2c80b4;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #226a92;
+}
+.navigacija {
+  padding: 12px 0;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#loginforma{
+  display: flex;
+  float: right;
+      align-items: center;
+      gap: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
